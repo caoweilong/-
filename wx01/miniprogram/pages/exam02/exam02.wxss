@@ -1,0 +1,10 @@
+/* pages/exam02/exam02.wxss */
+.container{
+  border: 1px solid red;
+}
+.container swiper{
+  width: 100%;
+}
+.container view{
+  width: 100%;
+}

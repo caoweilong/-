@@ -1,0 +1,45 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<!--index.wxml-->
+<view class="container">
+<view>
+<image src="{{url}}" style="width:750rpx ;height:320rpx" ></image>
+</view>
+<view class="guid">
+<ul>
+ <li><image src="{{url1}}"style="width:50px ;height:40px "></image></li>
+ <li>首页</li>
+ <li>课程</li>
+ <li>线上班</li>
+ <li>线下班</li>
+</ul>
+</view>
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+<block wx:for="{{movies}}" wx:for-index="index">
+<swiper-item>
+<image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+</swiper-item>
+</block>
+</swiper>
+<view class="footer">
+
+<ul>
+<li>关于我们</li>
+<li>|</li>
+<li>招聘信息</li>
+<li>|</li>
+<li>联系我们</li>
+<li>|</li>
+<li>商务合作</li>
+<li>|</li>
+<li>APP</li>
+<text>Copyright © 北京达内金桥科技有限公司版权所有 京ICP备12003709号-3
+</text>
+</ul>
+<ul>
+<li>达内精品在线WWW.TMOOC.CN 专注于IT职业技能培训 </li>
+<li>涵盖20余门课程体系，致力于打造权威的IT职业教育学习平台</li>
+<image src="{{}}"></image>
+</ul>
+</view>
+</view>

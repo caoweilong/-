@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/deploy/deploy",
+    "pages/account/account",
+    "pages/exam03/exam03",
+    "pages/exam02/exam02",
+    "pages/exam01/exam01"
+    
+  ],
+  "window": {
+    "backgroundColor": "#FF0",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#36d",
+    "navigationBarTitleText": "小程序示例",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#Fc0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/3.png",
+        "iconPath": "images/4.png",
+        "pagePath": "pages/deploy/deploy",
+        "text": "发布"
+      },
+      {
+        "selectedIconPath": "images/bigSwim2.png",
+        "iconPath": "images/blue.png",
+        "pagePath": "pages/account/account",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+<!--pages/exam03/exam03.wxml-->
+<text>pages/exam03/exam03.wxml</text>
+<view>
+php  是世界上最好的语言
+</view>
+<view>
+javascript 辣鸡语言
+</view>
+<view>{{msg}}</view>
+<view>山珍:{{list}}</view>
+<button bindtap="handle2" style="background:green">修改属性msg</button>
+
+<button bindtap="handle3" style="background:green">获取属性msg</button>
+<block wx:for="{{rows}}" wx:key="index">
+{{item.name}}
+</block>
+<block wx:for="{{rows2}}" wx:key="index">
+{{item.name}}
+<block wx:for="{{item.list}}" wx:key="index">
+{{item}}
+</block>
+</block>
+<view>判断</view>
+<view wx:if="{{fa>0}}">今年亮哥还有点头发吗</view>
+<view>影藏</view>
+<view hidden="{{fa>0}}">明年亮哥还有头发吗</view>

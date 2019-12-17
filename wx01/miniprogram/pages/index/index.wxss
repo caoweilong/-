@@ -1,0 +1,40 @@
+/* pages/index/index.wxss */
+/**index.wxss**/
+.container{
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+height: 400rpx;
+width: 100%;
+}
+.swiper image {
+height: 100%;
+width: 100%;
+}
+.guid{
+  
+  width: 100%;
+  height: 50px;
+  background: #4f8dfe;
+}
+.guid ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+}
+.guid ul li image{
+  margin-top: 16rpx;
+  
+}
+.footer{
+  background: #282c30;
+  
+}
+.footer ul{
+  font-size: 24rpx;
+  color: #fff;
+}

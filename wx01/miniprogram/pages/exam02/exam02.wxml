@@ -1,0 +1,20 @@
+<!--pages/exam02/exam02.wxml-->
+<text>pages/exam02/exam02.wxml</text>
+<text>滑块视图容器</text>
+<view class="container">
+<swiper autoplay="{{autoplay}}" duration="{{duration}}"
+indicator-dots="{{indicator-dots}}">
+<swiper-item>
+<view style="background:green; height:150px"></view>
+</swiper-item>
+<swiper-item>
+<view style="background:yellow; height:150px"></view>
+</swiper-item>
+<swiper-item>
+<view style="background:red; height:150px"></view>
+</swiper-item>
+<swiper-item>
+<view style="background:red; height:150px"></view>
+</swiper-item>
+</swiper>
+</view>

@@ -1,0 +1,5 @@
+/* 添加公共样式 */
+view{
+  color: red;
+  font-size: 35rpx;
+}

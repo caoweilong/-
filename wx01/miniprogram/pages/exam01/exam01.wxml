@@ -1,0 +1,25 @@
+<!--pages/exam01/exam01.wxml-->
+<text>pages/exam01/exam01.wxml</text>
+<text>span p</text>
+<view>
+<view>
+
+</view>
+<view>111111</view>
+<view>222222</view>
+<view>333333</view>
+<text selectable="true">
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+</text>
+<image src="/images/blue.png" style="width:30rpx; height:30rpx;"></image>
+</view>
+
